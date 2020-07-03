@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": 1234,
+      "admin": true
+    },
+    {
+      "id": 2,
+      "name": "Jean Bonbeur",
+      "password": 5678,
+      "admin": false,
+      "days": [
+        {
+          "date": "2020-07-03",
+          "sport": "football",
+          "sportIntensity": 3,
+          "meals": [
+            {
+              "time": "morning",
+              "eatingIntensity": 2,
+              "collation": false
+            }
+          ],
+          "weight": 68,
+          "mood": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Marie Curie",
+      "password": 9876,
+      "admin": false,
+      "days": [
+        {
+          "day": "2020-07-03",
+          "sport": "yoga",
+          "sportIntensity": 2,
+          "meals": [
+            {
+              "time": "morning",
+              "eatingIntensity": 1,
+              "collation": false
+            },
+            {
+              "time": "lunch",
+              "eatingIntensity": 1,
+              "collation": true
+            }
+          ],
+          "weight": 55,
+          "mood": 2
+        }
+      ],
+      "message": "lul"
+    }
+  ]
+}
